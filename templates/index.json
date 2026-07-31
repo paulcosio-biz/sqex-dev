@@ -1,1 +1,511 @@
-{"sections":{"c_slideshow_8biYdx":{"type":"c_slideshow","blocks":{"image_WkBGRE":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/PC_FF7.jpg","mobile_image":"shopify:\/\/shop_images\/SP_FF7.jpg","block_link":"shopify:\/\/collections\/final-fantasy-vii-new-releases","subheading":"","title":"","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","content_max_width":780,"background":"","background_opacity":50,"text_color":"#ffffff","border_color":"","gradient_overlay":""}},"image_gRUnhF":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/PC_FF.jpg","mobile_image":"shopify:\/\/shop_images\/SP_FF.jpg","block_link":"shopify:\/\/collections\/final-fantasy-new-releases","subheading":"","title":"","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","content_max_width":780,"background":"","background_opacity":50,"text_color":"#ffffff","border_color":"","gradient_overlay":""}},"image_VTAeHW":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/PC_FANFES.jpg","mobile_image":"shopify:\/\/shop_images\/SP_FANFES.jpg","block_link":"shopify:\/\/collections\/new","subheading":"","title":"","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","content_max_width":780,"background":"","background_opacity":50,"text_color":"#ffffff","border_color":"","gradient_overlay":""}},"image_jfQGj4":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/PC_JobPinz.jpg","mobile_image":"shopify:\/\/shop_images\/SP_JobPinz.jpg","block_link":"shopify:\/\/collections\/final-fantasy-xiv-job-pins","subheading":"","title":"","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","content_max_width":780,"background":"","background_opacity":50,"text_color":"#ffffff","border_color":"","gradient_overlay":""}},"image_mFeTbP":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/PC_FF14MD.jpg","mobile_image":"shopify:\/\/shop_images\/SP_FF14MD.jpg","block_link":"shopify:\/\/collections\/new","subheading":"","title":"","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","content_max_width":780,"background":"","background_opacity":50,"text_color":"#ffffff","border_color":"","gradient_overlay":""}},"image_UDzX6n":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/6_PC_FFSound.png","mobile_image":"shopify:\/\/shop_images\/6_SP_FFSound.jpg","block_link":"shopify:\/\/collections\/final-fantasy-original-soundtrack","subheading":"","title":"","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","content_max_width":780,"background":"","background_opacity":50,"text_color":"#ffffff","border_color":"","gradient_overlay":"linear-gradient(180deg, rgba(NaN, NaN, NaN, 0), rgba(4, 4, 4, 0.65) 100%)"}}},"block_order":["image_WkBGRE","image_gRUnhF","image_VTAeHW","image_jfQGj4","image_mFeTbP","image_UDzX6n"],"custom_css":[".page-dots {position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%);}","@media screen and (max-width: 749px) {.page-dots {bottom: -20px; width: 250px; }}",".tap-area .circular-progress {display: none !important;}",".tap-area[aria-current=\"true\"] {background-color: #ff7444;}",".tap-area {width: 25px; height: 5px; border-radius: 5px; cursor: pointer; display: inline-block;}"],"name":"Custom Slideshow","settings":{"allow_transparent_header":false,"show_next_section_button":false,"media_size":"auto","show_initial_transition":true,"autoplay":true,"autoplay_pause_on_video":true,"cycle_speed":4,"background":"#000000","controls_color":"#000000"}},"rich_text_wba6pU":{"type":"rich-text","blocks":{"heading_HyPwRJ":{"type":"heading","settings":{"text":"Now Live! Expanded to Taiwan!","heading_tag":"h2"}},"richtext_3EmRxV":{"type":"richtext","settings":{"content":"<p>Welcome to the official Square Enix online store.<br\/>Shop now in Australia, Hong Kong, Malaysia, the Philippines, Singapore, South Korea, Taiwan, Thailand, Vietnam, and New Zealand.<br\/>More Asia-Oceania regions and even more exciting products coming soon.<\/p>"}}},"block_order":["heading_HyPwRJ","richtext_3EmRxV"],"custom_css":[".color-scheme {background: white !important; padding: 1rem 0; margin-top: 3rem;}"],"name":"t:sections.rich_text.presets.rich_text.name","settings":{"color_scheme":"","separate_section_with_border":false,"content_width":"lg","text_position":"center","remove_vertical_spacing":true}},"custom_liquid_Ja9zLD":{"type":"custom-liquid","custom_css":["div {padding-bottom: 1rem;}"],"name":"TOP Banner","settings":{"color_scheme":"scheme-2","separate_section_with_border":false,"remove_vertical_spacing":true,"remove_horizontal_spacing":false,"liquid":"<section class=\"custom-media-banner custom-media-banner--ff7\">\n  <div class=\"custom-media-banner__inner\">\n\n    <!-- Banner 1 -->\n    <div class=\"custom-media-banner__media\">\n      <a href=\"https:\/\/apac.store.square-enix.com\/collections\/final-fantasy-xiv-original-soundtrack\" title=\"FF14 Original Soundtrack\">\n        <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0666\/0974\/1893\/files\/PC_FF14ST_2_S.png?v=1782353794\"\n          alt=\"FF14 Original Soundtrack\"\n          loading=\"lazy\"\n        >\n      <\/a>\n    <\/div>\n\n    <!-- Banner 2 -->\n    <div class=\"custom-media-banner__media\">\n      <a href=\"https:\/\/apac.store.square-enix.com\/products\/final-fantasy-xiv-grand-companies-of-eorzea-medal-brooch-set\" title=\"FF14 Brooch\">\n        <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0666\/0974\/1893\/files\/4_PC_FF14Brooch_906x400_a7b39c48-8720-408e-a723-034fb6507dc3.png?v=1776305325\"\n          alt=\"FF14 Brooch Banner\"\n          loading=\"lazy\"\n        >\n      <\/a>\n    <\/div>\n\n    <!-- Banner 3 -->\n    <div class=\"custom-media-banner__media\">\n      <a href=\"https:\/\/apac.store.square-enix.com\/search?q=FINAL+FANTASY+IX+ADORABLE+ARTS\">\n        <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0666\/0974\/1893\/files\/2_PC_FF9ARTS_906x400_f3101eef-6752-4c3f-a730-dcfe4c8e3b76.png?v=1780023228\"\n          alt=\"FF9 Arts Banner\"\n          loading=\"lazy\"\n        >\n      <\/a>\n    <\/div>\n\n    <!-- Banner 4 -->\n    <div class=\"custom-media-banner__media\">\n      <a href=\"https:\/\/apac.store.square-enix.com\/collections\/nier-soundtrack\">\n        <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0666\/0974\/1893\/files\/5_PC_NieR-CDLP._906x400_69ff2f12-6d27-4cb0-8e8a-0dc77f976106.png?v=1780023228\"\n          alt=\"NieR CDLP Banner\"\n          loading=\"lazy\"\n        >\n      <\/a>\n    <\/div>\n\n  <\/div>\n<\/section>\n\n<style>\n  \/* 🔒 Scoped *\/\n  .custom-media-banner--ff7 {\n    padding: 0;\n    display: flex;\n    justify-content: center;\n  }\n\n  \/* 2-column layout *\/\n  .custom-media-banner--ff7 .custom-media-banner__inner {\n    display: grid;\n    grid-template-columns: repeat(2, auto); \n    justify-content: center;\n    gap: 20px;\n  }\n\n  .custom-media-banner--ff7 .custom-media-banner__media img {\n    display: block;\n    width: auto;\n    height: auto;\n    border-radius: 0;\n    max-width: 100%;\n  }\n\n  \/* Desktop *\/\n  @media (min-width: 700px) {\n    .custom-media-banner--ff7 .custom-media-banner__media img {\n    width: 500px;\n    max-width: 100%;\n    margin: 0 auto;\n    }\n  }\n\n  \/* Mobile: stack again *\/\n  @media (max-width: 699px) {\n    .custom-media-banner--ff7 .custom-media-banner__inner {\n      grid-template-columns: 1fr;\n      gap: 16px;\n    }\n\n    .custom-media-banner--ff7 .custom-media-banner__media img {\n      width: 100%;\n      transform: scale(1.02);\n      transform-origin: center;\n    }\n\n  }\n\n.custom-media-banner__media {\npadding-bottom: 0px !important;\n}\n<\/style>","text_alignment":"center"}},"featured-collections-1":{"type":"featured-collections","blocks":{"collection_D4EiVd":{"type":"collection","disabled":true,"settings":{"collection":"pre-order","products_count":8,"title":"","link_url":"shopify:\/\/collections\/pre-order","link_text":"View all"}},"collection-2":{"type":"collection","settings":{"collection":"all","products_count":12,"title":"Featured Products","link_url":"https:\/\/apac.store.square-enix.com\/collections\/all","link_text":"View All Products"}}},"block_order":["collection_D4EiVd","collection-2"],"settings":{"color_scheme":"scheme-2","separate_section_with_border":true,"hide_product_information":false,"stack_products":true,"products_per_row_mobile":"2","products_per_row_desktop":4,"horizontal_spacing_factor":1,"vertical_spacing_factor":1,"subheading":""}},"custom_liquid_k8g3qB":{"type":"custom-liquid","disabled":true,"name":"Most Popular","settings":{"color_scheme":"scheme-2","separate_section_with_border":true,"remove_vertical_spacing":false,"remove_horizontal_spacing":false,"liquid":"<style>\n\n\/* Grid layout *\/\n.mp-section {\n  display: grid;\n  grid-template-columns: 2fr 1.5fr 1.5fr;\n      gap: var(--section-stack-gap);\n  align-items: start;\n}\n\n\/* Section title *\n\n\/* Card styles *\/\n.mp-card {\n  display: flex;\n  flex-direction: column;\n  text-decoration: none;\n  color: inherit;\n  position: relative;\n}\n\n\/* Image container *\/\n.mp-card__img-container {\n  width: 100%;\n  overflow: hidden;\n  border-radius: 4px;\n  flex-shrink: 0;\n}\n\n\/* Image itself *\/\n.mp-card__img-container img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  display: block;\n}\n\n\/* Card info *\/\n.mp-card__info {\n  margin-top: 8px;\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  text-align: left;\n}\n\n\/* Vendor and name text *\/\n.mp-card__vendor {\n  font-size: 12px;\n  color: #777;\n}\n\n.mp-card__name {\n  font-size: 14px;\n  font-weight: 600;\n  line-height: 1.3;\n}\n\n\/* Top badges *\/\n .mp-section .badge {\n  position: absolute;\n  top: 10px;\n  left: 0px;\n  background: black;\n  color: #fff;\n  font-weight: bold;\n  border-radius: 0px;\n  padding: 2px 25px;\n  font-size: 12px;\n  clip-path: polygon(\n    0 0,\n    100% 0,\n    90% 50%,\n    100% 100%,\n    0 100%\n  );\n}\n\n .mp-section .badge.top1 {\n  font-size: 16px;\n  padding: 2px 35px;\n}\n\n\/* Stacked columns *\/\n.mp-stack {\n  display: flex;\n  flex-direction: column;\n  gap: 20px 20px;\n}\n\n\/* Align text to top *\/\n.mp-stack .mp-card__info {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  overflow: hidden;\n}\n\n\/* Column 2 (Top 1) *\/\n#top-seller-col2 {\n  display: flex;\n  flex-direction: column;\n}\n\n\/* Responsive *\/\n@media (max-width: 768px) {\n \/* Make card flow vertically *\/\n  .mp-card {\n    display: flex;\n    flex-direction: column;\n  }\n\n  \/* Badge on mobile: move above the image *\/\n   .mp-section .badge {\n    position: static !important;   \/* remove absolute positioning *\/\n    order: -1;      \n  display: inline-block;                 \/* put it before the image *\/\n    margin-bottom: 6px;            \/* space below badge *\/\n    width: 120px;                    \/* don't clip *\/\n    padding: 2px 2px !important;              \/* adjust padding for mobile *\/\n    font-size: 12px;                \/* adjust font if needed *\/\n  }\n\n  \/* Keep images square *\/\n  .mp-card__img-container {\n    aspect-ratio: 1 \/ 1;\n    height: auto !important;\n  }\n  .mp-section {\n    grid-template-columns: 1fr;\n  }\n  .mp-section__title {\n    font-size: 36px;\n    padding-right: 0;\n  }\n  .mp-stack {\n    flex-direction: row;\n    gap: 8px;\n  }\n  .mp-stack .mp-card {\n    flex: 1;\n  }\n\n  \/* Make images square (1:1) *\/\n  .mp-card__img-container {\n    aspect-ratio: 1 \/ 1;\n    height: auto !important;\n  }\n}\n\n<\/style>\n\n<div class=\"mp-section\">\n<div style=\"grid-column: 1 \/ -1;\">\n  <div class=\"v-stack justify-self-center gap-4 text-center sm:gap-5\">\n    <h2 class=\"h2\">Most Popular<\/h2>\n  <\/div>\n<\/div>\n  <div id=\"top-seller-col2\"><\/div>\n  <div class=\"mp-stack\" id=\"top-seller-col3\"><\/div>\n  <div class=\"mp-stack\" id=\"top-seller-col4\"><\/div>\n<\/div>\n\n<script>\nfetch('https:\/\/apac.store.square-enix.com\/collections\/top-seller\/products.json')\n.then(res => res.json())\n.then(data => {\n  const products = data.products;\n  const col1 = document.getElementById('top-seller-col2'); \/\/ Top 1\n  const col2 = document.getElementById('top-seller-col3'); \/\/ Top 2 + Top 4\n  const col3 = document.getElementById('top-seller-col4'); \/\/ Top 3 + Top 5\n\n  \/\/ Create cards\n  const cardTop1 = createCard(products[0], 0);\n  const cardTop2 = createCard(products[1], 1);\n  const cardTop3 = createCard(products[2], 2);\n  const cardTop4 = createCard(products[3], 3);\n  const cardTop5 = createCard(products[4], 4);\n\n  \/\/ Append cards to correct columns\n  col1.appendChild(cardTop1);\n  col2.appendChild(cardTop2);\n  col2.appendChild(cardTop4);\n  col3.appendChild(cardTop3);\n  col3.appendChild(cardTop5);\n\n  \/\/ Function to adjust image heights proportionally and align total card heights\n  function adjustHeights() {\n    const top1Img = cardTop1.querySelector('.mp-card__img-container');\n    const top1Height = top1Img.offsetHeight;\n\n    \/\/ Set Top 2-5 image containers to 40% of Top 1 height\n    const shortHeight = top1Height * 0.45;\n    [cardTop2, cardTop3, cardTop4, cardTop5].forEach(card => {\n      card.querySelector('.mp-card__img-container').style.height = shortHeight + 'px';\n    });\n\n    \/\/ Match total card heights for alignment\n    const maxTopRow = Math.max(cardTop2.offsetHeight, cardTop3.offsetHeight);\n    cardTop2.style.height = maxTopRow + 'px';\n    cardTop3.style.height = maxTopRow + 'px';\n\n    const maxBottomRow = Math.max(cardTop4.offsetHeight, cardTop5.offsetHeight);\n    cardTop4.style.height = maxBottomRow + 'px';\n    cardTop5.style.height = maxBottomRow + 'px';\n  }\n\n  \/\/ Wait until all images are loaded\n  const allImages = document.querySelectorAll('.mp-card img');\n  let loadedCount = 0;\n  allImages.forEach(img => {\n    if (img.complete) loadedCount++;\n    else img.onload = () => { \n      loadedCount++; \n      if(loadedCount === allImages.length) adjustHeights(); \n    };\n  });\n  if (loadedCount === allImages.length) adjustHeights();\n\n  window.addEventListener('resize', adjustHeights);\n\n  \/\/ Function to create individual product cards\n  function createCard(prod, index){\n    const img = prod.images[0]?.src || '';\n    const link = prod.url || `\/products\/${prod.handle}`;\n    const vendor = prod.vendor || '';\n    const name = prod.title || '';\n\n    const card = document.createElement('a');\n    card.className = 'mp-card';\n    card.href = link;\n    card.target = '_blank';\n    card.innerHTML = `\n      <div class=\"mp-card__img-container\">\n        <img src=\"${img}\" alt=\"\">\n      <\/div>\n      <div class=\"badge ${index === 0 ? 'top1' : ''}\">★ Top ${index+1}<\/div>\n      <div class=\"mp-card__info\">\n        <div class=\"mp-card__vendor\">${vendor}<\/div>\n        <div class=\"mp-card__name\">${name}<\/div>\n      <\/div>\n    `;\n    return card; \n  }\n}); \n<\/script>","text_alignment":"center"}},"collection_list_GYR9NL":{"type":"collection-list","blocks":{"collection_4XEAXG":{"type":"collection","settings":{"color_scheme":"","collection":"figures","image":"shopify:\/\/shop_images\/MFF7PA62_06.jpg","expand_collection":false,"content_position":"place-self-end-start text-start","subheading":"","title":"Figures","button_text":"View products","button_link":"","button_style":"link","overlay_color":"#000000","overlay_opacity":20}},"collection_yjfXMd":{"type":"collection","settings":{"color_scheme":"","collection":"figures","image":"shopify:\/\/shop_images\/MWFF140456.jpg","expand_collection":false,"content_position":"place-self-end-start text-start","subheading":"","title":"Acrylic Stand","button_text":"View products","button_link":"shopify:\/\/collections\/acrylic-stands","button_style":"link","overlay_color":"#000000","overlay_opacity":20}},"collection_yRjUKH":{"type":"collection","settings":{"color_scheme":"scheme-4","collection":"vinyl-records","image":"shopify:\/\/shop_images\/FFXIVVinylLPv2Box_BS.png","expand_collection":false,"content_position":"place-self-end-start text-start","subheading":"","title":"Vinyl Records","button_text":"View products","button_link":"","button_style":"link","overlay_color":"#000000","overlay_opacity":20}},"collection_NeVher":{"type":"collection","settings":{"color_scheme":"scheme-4","collection":"soundtracks","image":"shopify:\/\/shop_images\/Fix.jpg","expand_collection":false,"content_position":"place-self-end-start text-start","subheading":"","title":"Soundtrack","button_text":"View products","button_link":"","button_style":"link","overlay_color":"#000000","overlay_opacity":20}},"collection_jHLgpy":{"type":"collection","settings":{"color_scheme":"scheme-4","collection":"plush-toys","image":"shopify:\/\/shop_images\/MFF140010_2.jpg","expand_collection":false,"content_position":"place-self-end-start text-start","subheading":"","title":"Plush Toys","button_text":"View products","button_link":"","button_style":"link","overlay_color":"#000000","overlay_opacity":20}},"collection_ii4E9G":{"type":"collection","settings":{"color_scheme":"scheme-4","collection":"keychains-straps","image":"shopify:\/\/shop_images\/MWFF140765.jpg","expand_collection":false,"content_position":"place-self-end-start text-start","subheading":"","title":"Keychains·Straps","button_text":"View products","button_link":"","button_style":"link","overlay_color":"#000000","overlay_opacity":20}},"collection_GXtjiz":{"type":"collection","settings":{"color_scheme":"scheme-4","collection":"bags-pouches","image":"shopify:\/\/shop_images\/MWFF140747_2.jpg","expand_collection":false,"content_position":"place-self-end-start text-start","subheading":"","title":"Bags · Pouches","button_text":"View products","button_link":"","button_style":"link","overlay_color":"#000000","overlay_opacity":20}},"collection_JiiHYk":{"type":"collection","settings":{"color_scheme":"scheme-4","collection":"general-merchandise","image":"shopify:\/\/shop_images\/MWFF140751.jpg","expand_collection":false,"content_position":"place-self-end-start text-start","subheading":"","title":"General Goods · More","button_text":"View products","button_link":"","button_style":"link","overlay_color":"#000000","overlay_opacity":20}}},"block_order":["collection_4XEAXG","collection_yjfXMd","collection_yRjUKH","collection_NeVher","collection_jHLgpy","collection_ii4E9G","collection_GXtjiz","collection_JiiHYk"],"name":"t:sections.collection_list.presets.collection_list.name","settings":{"color_scheme":"scheme-2","separate_section_with_border":true,"image_size":"auto","show_text_outside":false,"space_items":true,"stack_collections":true,"collections_per_row_desktop":3,"stack_collections_mobile":true,"collections_per_row_mobile":"1","subheading":"","title":"Product Categories","content":""}},"featured_collections_KY7tQM":{"type":"featured-collections","blocks":{"collection_Y6eX9R":{"type":"collection","settings":{"collection":"soundtracks","products_count":8,"title":"Recommended Products","link_url":"shopify:\/\/collections\/soundtracks","link_text":"View all"}}},"block_order":["collection_Y6eX9R"],"settings":{"color_scheme":"scheme-2","separate_section_with_border":true,"hide_product_information":false,"stack_products":false,"products_per_row_mobile":"2","products_per_row_desktop":4,"horizontal_spacing_factor":1,"vertical_spacing_factor":1,"subheading":""}},"c_logo_list_7cNpYA":{"type":"c_logo-list","blocks":{"logo_t99Jfr":{"type":"logo","settings":{"logo":"shopify:\/\/shop_images\/square-enix-asia-newsportal.png","logo_width":600,"link":"https:\/\/www.square-enix.com\/asia\/newsportal\/"}}},"block_order":["logo_t99Jfr"],"name":"関連企業ロゴ","settings":{"color_scheme":"scheme-2","separate_section_with_border":true,"subheading":"","title":"Related Links","stack_on_mobile":true,"items_per_row":3,"logo_item_background":"","logo_item_border":""}},"blog-posts":{"type":"blog-posts","disabled":true,"settings":{"color_scheme":"scheme-2","separate_section_with_border":true,"blog":"news","posts_count":3,"stack_on_mobile":true,"show_category":true,"show_date":true,"show_excerpt":false,"show_read_more":true,"subheading":"","title":"Notice","content":"","button_link":"shopify:\/\/blogs\/news","button_text":"View all"}}},"order":["c_slideshow_8biYdx","rich_text_wba6pU","custom_liquid_Ja9zLD","featured-collections-1","custom_liquid_k8g3qB","collection_list_GYR9NL","featured_collections_KY7tQM","c_logo_list_7cNpYA","blog-posts"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "c_slideshow_8biYdx": {
+      "type": "c_slideshow",
+      "blocks": {
+        "image_WkBGRE": {
+          "type": "image",
+          "settings": {
+            "block_link": "shopify://collections/final-fantasy-vii-new-releases",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_gRUnhF": {
+          "type": "image",
+          "settings": {
+            "block_link": "shopify://collections/final-fantasy-new-releases",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_VTAeHW": {
+          "type": "image",
+          "settings": {
+            "block_link": "shopify://collections/new",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_jfQGj4": {
+          "type": "image",
+          "settings": {
+            "block_link": "shopify://collections/final-fantasy-xiv-job-pins",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_mFeTbP": {
+          "type": "image",
+          "settings": {
+            "block_link": "shopify://collections/new",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_UDzX6n": {
+          "type": "image",
+          "settings": {
+            "block_link": "shopify://collections/final-fantasy-original-soundtrack",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 0), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_WkBGRE",
+        "image_gRUnhF",
+        "image_VTAeHW",
+        "image_jfQGj4",
+        "image_mFeTbP",
+        "image_UDzX6n"
+      ],
+      "custom_css": [
+        ".page-dots {position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%);}",
+        "@media screen and (max-width: 749px) {.page-dots {bottom: -20px; width: 250px; }}",
+        ".tap-area .circular-progress {display: none !important;}",
+        ".tap-area[aria-current=\"true\"] {background-color: #ff7444;}",
+        ".tap-area {width: 25px; height: 5px; border-radius: 5px; cursor: pointer; display: inline-block;}"
+      ],
+      "name": "Custom Slideshow",
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "auto",
+        "show_initial_transition": true,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 4,
+        "background": "#000000",
+        "controls_color": "#000000"
+      }
+    },
+    "rich_text_wba6pU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HyPwRJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Now Live! Expanded to Taiwan!",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_3EmRxV": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Welcome to the official Square Enix online store.<br/>Shop now in Australia, Hong Kong, Malaysia, the Philippines, Singapore, South Korea, Taiwan, Thailand, Vietnam, and New Zealand.<br/>More Asia-Oceania regions and even more exciting products coming soon.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HyPwRJ",
+        "richtext_3EmRxV"
+      ],
+      "custom_css": [
+        ".color-scheme {background: white !important; padding: 1rem 0; margin-top: 3rem;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
+    "custom_liquid_Ja9zLD": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {padding-bottom: 1rem;}"
+      ],
+      "name": "TOP Banner",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"custom-media-banner custom-media-banner--ff7\">\n  <div class=\"custom-media-banner__inner\">\n\n    <!-- Banner 1 -->\n    <div class=\"custom-media-banner__media\">\n      <a href=\"https://apac.store.square-enix.com/collections/final-fantasy-xiv-original-soundtrack\" title=\"FF14 Original Soundtrack\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0666/0974/1893/files/PC_FF14ST_2_S.png?v=1782353794\"\n          alt=\"FF14 Original Soundtrack\"\n          loading=\"lazy\"\n        >\n      </a>\n    </div>\n\n    <!-- Banner 2 -->\n    <div class=\"custom-media-banner__media\">\n      <a href=\"https://apac.store.square-enix.com/products/final-fantasy-xiv-grand-companies-of-eorzea-medal-brooch-set\" title=\"FF14 Brooch\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0666/0974/1893/files/4_PC_FF14Brooch_906x400_a7b39c48-8720-408e-a723-034fb6507dc3.png?v=1776305325\"\n          alt=\"FF14 Brooch Banner\"\n          loading=\"lazy\"\n        >\n      </a>\n    </div>\n\n    <!-- Banner 3 -->\n    <div class=\"custom-media-banner__media\">\n      <a href=\"https://apac.store.square-enix.com/search?q=FINAL+FANTASY+IX+ADORABLE+ARTS\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0666/0974/1893/files/2_PC_FF9ARTS_906x400_f3101eef-6752-4c3f-a730-dcfe4c8e3b76.png?v=1780023228\"\n          alt=\"FF9 Arts Banner\"\n          loading=\"lazy\"\n        >\n      </a>\n    </div>\n\n    <!-- Banner 4 -->\n    <div class=\"custom-media-banner__media\">\n      <a href=\"https://apac.store.square-enix.com/collections/nier-soundtrack\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0666/0974/1893/files/5_PC_NieR-CDLP._906x400_69ff2f12-6d27-4cb0-8e8a-0dc77f976106.png?v=1780023228\"\n          alt=\"NieR CDLP Banner\"\n          loading=\"lazy\"\n        >\n      </a>\n    </div>\n\n  </div>\n</section>\n\n<style>\n  /* 🔒 Scoped */\n  .custom-media-banner--ff7 {\n    padding: 0;\n    display: flex;\n    justify-content: center;\n  }\n\n  /* 2-column layout */\n  .custom-media-banner--ff7 .custom-media-banner__inner {\n    display: grid;\n    grid-template-columns: repeat(2, auto); \n    justify-content: center;\n    gap: 20px;\n  }\n\n  .custom-media-banner--ff7 .custom-media-banner__media img {\n    display: block;\n    width: auto;\n    height: auto;\n    border-radius: 0;\n    max-width: 100%;\n  }\n\n  /* Desktop */\n  @media (min-width: 700px) {\n    .custom-media-banner--ff7 .custom-media-banner__media img {\n    width: 500px;\n    max-width: 100%;\n    margin: 0 auto;\n    }\n  }\n\n  /* Mobile: stack again */\n  @media (max-width: 699px) {\n    .custom-media-banner--ff7 .custom-media-banner__inner {\n      grid-template-columns: 1fr;\n      gap: 16px;\n    }\n\n    .custom-media-banner--ff7 .custom-media-banner__media img {\n      width: 100%;\n      transform: scale(1.02);\n      transform-origin: center;\n    }\n\n  }\n\n.custom-media-banner__media {\npadding-bottom: 0px !important;\n}\n</style>",
+        "text_alignment": "center"
+      }
+    },
+    "featured-collections-1": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_D4EiVd": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "pre-order",
+            "products_count": 8,
+            "title": "",
+            "link_url": "shopify://collections/pre-order",
+            "link_text": "View all"
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "all",
+            "products_count": 12,
+            "title": "Featured Products",
+            "link_url": "https://apac.store.square-enix.com/collections/all",
+            "link_text": "View All Products"
+          }
+        }
+      },
+      "block_order": [
+        "collection_D4EiVd",
+        "collection-2"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "custom_liquid_k8g3qB": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Most Popular",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n\n/* Grid layout */\n.mp-section {\n  display: grid;\n  grid-template-columns: 2fr 1.5fr 1.5fr;\n      gap: var(--section-stack-gap);\n  align-items: start;\n}\n\n/* Section title *\n\n/* Card styles */\n.mp-card {\n  display: flex;\n  flex-direction: column;\n  text-decoration: none;\n  color: inherit;\n  position: relative;\n}\n\n/* Image container */\n.mp-card__img-container {\n  width: 100%;\n  overflow: hidden;\n  border-radius: 4px;\n  flex-shrink: 0;\n}\n\n/* Image itself */\n.mp-card__img-container img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  display: block;\n}\n\n/* Card info */\n.mp-card__info {\n  margin-top: 8px;\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  text-align: left;\n}\n\n/* Vendor and name text */\n.mp-card__vendor {\n  font-size: 12px;\n  color: #777;\n}\n\n.mp-card__name {\n  font-size: 14px;\n  font-weight: 600;\n  line-height: 1.3;\n}\n\n/* Top badges */\n .mp-section .badge {\n  position: absolute;\n  top: 10px;\n  left: 0px;\n  background: black;\n  color: #fff;\n  font-weight: bold;\n  border-radius: 0px;\n  padding: 2px 25px;\n  font-size: 12px;\n  clip-path: polygon(\n    0 0,\n    100% 0,\n    90% 50%,\n    100% 100%,\n    0 100%\n  );\n}\n\n .mp-section .badge.top1 {\n  font-size: 16px;\n  padding: 2px 35px;\n}\n\n/* Stacked columns */\n.mp-stack {\n  display: flex;\n  flex-direction: column;\n  gap: 20px 20px;\n}\n\n/* Align text to top */\n.mp-stack .mp-card__info {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  overflow: hidden;\n}\n\n/* Column 2 (Top 1) */\n#top-seller-col2 {\n  display: flex;\n  flex-direction: column;\n}\n\n/* Responsive */\n@media (max-width: 768px) {\n /* Make card flow vertically */\n  .mp-card {\n    display: flex;\n    flex-direction: column;\n  }\n\n  /* Badge on mobile: move above the image */\n   .mp-section .badge {\n    position: static !important;   /* remove absolute positioning */\n    order: -1;      \n  display: inline-block;                 /* put it before the image */\n    margin-bottom: 6px;            /* space below badge */\n    width: 120px;                    /* don't clip */\n    padding: 2px 2px !important;              /* adjust padding for mobile */\n    font-size: 12px;                /* adjust font if needed */\n  }\n\n  /* Keep images square */\n  .mp-card__img-container {\n    aspect-ratio: 1 / 1;\n    height: auto !important;\n  }\n  .mp-section {\n    grid-template-columns: 1fr;\n  }\n  .mp-section__title {\n    font-size: 36px;\n    padding-right: 0;\n  }\n  .mp-stack {\n    flex-direction: row;\n    gap: 8px;\n  }\n  .mp-stack .mp-card {\n    flex: 1;\n  }\n\n  /* Make images square (1:1) */\n  .mp-card__img-container {\n    aspect-ratio: 1 / 1;\n    height: auto !important;\n  }\n}\n\n</style>\n\n<div class=\"mp-section\">\n<div style=\"grid-column: 1 / -1;\">\n  <div class=\"v-stack justify-self-center gap-4 text-center sm:gap-5\">\n    <h2 class=\"h2\">Most Popular</h2>\n  </div>\n</div>\n  <div id=\"top-seller-col2\"></div>\n  <div class=\"mp-stack\" id=\"top-seller-col3\"></div>\n  <div class=\"mp-stack\" id=\"top-seller-col4\"></div>\n</div>\n\n<script>\nfetch('https://apac.store.square-enix.com/collections/top-seller/products.json')\n.then(res => res.json())\n.then(data => {\n  const products = data.products;\n  const col1 = document.getElementById('top-seller-col2'); // Top 1\n  const col2 = document.getElementById('top-seller-col3'); // Top 2 + Top 4\n  const col3 = document.getElementById('top-seller-col4'); // Top 3 + Top 5\n\n  // Create cards\n  const cardTop1 = createCard(products[0], 0);\n  const cardTop2 = createCard(products[1], 1);\n  const cardTop3 = createCard(products[2], 2);\n  const cardTop4 = createCard(products[3], 3);\n  const cardTop5 = createCard(products[4], 4);\n\n  // Append cards to correct columns\n  col1.appendChild(cardTop1);\n  col2.appendChild(cardTop2);\n  col2.appendChild(cardTop4);\n  col3.appendChild(cardTop3);\n  col3.appendChild(cardTop5);\n\n  // Function to adjust image heights proportionally and align total card heights\n  function adjustHeights() {\n    const top1Img = cardTop1.querySelector('.mp-card__img-container');\n    const top1Height = top1Img.offsetHeight;\n\n    // Set Top 2-5 image containers to 40% of Top 1 height\n    const shortHeight = top1Height * 0.45;\n    [cardTop2, cardTop3, cardTop4, cardTop5].forEach(card => {\n      card.querySelector('.mp-card__img-container').style.height = shortHeight + 'px';\n    });\n\n    // Match total card heights for alignment\n    const maxTopRow = Math.max(cardTop2.offsetHeight, cardTop3.offsetHeight);\n    cardTop2.style.height = maxTopRow + 'px';\n    cardTop3.style.height = maxTopRow + 'px';\n\n    const maxBottomRow = Math.max(cardTop4.offsetHeight, cardTop5.offsetHeight);\n    cardTop4.style.height = maxBottomRow + 'px';\n    cardTop5.style.height = maxBottomRow + 'px';\n  }\n\n  // Wait until all images are loaded\n  const allImages = document.querySelectorAll('.mp-card img');\n  let loadedCount = 0;\n  allImages.forEach(img => {\n    if (img.complete) loadedCount++;\n    else img.onload = () => { \n      loadedCount++; \n      if(loadedCount === allImages.length) adjustHeights(); \n    };\n  });\n  if (loadedCount === allImages.length) adjustHeights();\n\n  window.addEventListener('resize', adjustHeights);\n\n  // Function to create individual product cards\n  function createCard(prod, index){\n    const img = prod.images[0]?.src || '';\n    const link = prod.url || `/products/${prod.handle}`;\n    const vendor = prod.vendor || '';\n    const name = prod.title || '';\n\n    const card = document.createElement('a');\n    card.className = 'mp-card';\n    card.href = link;\n    card.target = '_blank';\n    card.innerHTML = `\n      <div class=\"mp-card__img-container\">\n        <img src=\"${img}\" alt=\"\">\n      </div>\n      <div class=\"badge ${index === 0 ? 'top1' : ''}\">★ Top ${index+1}</div>\n      <div class=\"mp-card__info\">\n        <div class=\"mp-card__vendor\">${vendor}</div>\n        <div class=\"mp-card__name\">${name}</div>\n      </div>\n    `;\n    return card; \n  }\n}); \n</script>",
+        "text_alignment": "center"
+      }
+    },
+    "collection_list_GYR9NL": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_4XEAXG": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "figures",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Figures",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "collection_yjfXMd": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "figures",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Acrylic Stand",
+            "button_text": "View products",
+            "button_link": "shopify://collections/acrylic-stands",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "collection_yRjUKH": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "vinyl-records",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Vinyl Records",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "collection_NeVher": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "soundtracks",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Soundtrack",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "collection_jHLgpy": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "plush-toys",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Plush Toys",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "collection_ii4E9G": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "keychains-straps",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Keychains·Straps",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "collection_GXtjiz": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "bags-pouches",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Bags · Pouches",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "collection_JiiHYk": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "general-merchandise",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "General Goods · More",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "collection_4XEAXG",
+        "collection_yjfXMd",
+        "collection_yRjUKH",
+        "collection_NeVher",
+        "collection_jHLgpy",
+        "collection_ii4E9G",
+        "collection_GXtjiz",
+        "collection_JiiHYk"
+      ],
+      "name": "t:sections.collection_list.presets.collection_list.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "stack_collections_mobile": true,
+        "collections_per_row_mobile": "1",
+        "subheading": "",
+        "title": "Product Categories",
+        "content": ""
+      }
+    },
+    "featured_collections_KY7tQM": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Y6eX9R": {
+          "type": "collection",
+          "settings": {
+            "collection": "soundtracks",
+            "products_count": 8,
+            "title": "Recommended Products",
+            "link_url": "shopify://collections/soundtracks",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Y6eX9R"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "c_logo_list_7cNpYA": {
+      "type": "c_logo-list",
+      "blocks": {
+        "logo_t99Jfr": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 600,
+            "link": "https://www.square-enix.com/asia/newsportal/"
+          }
+        }
+      },
+      "block_order": [
+        "logo_t99Jfr"
+      ],
+      "name": "関連企業ロゴ",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Related Links",
+        "stack_on_mobile": true,
+        "items_per_row": 3,
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "blog": "news",
+        "posts_count": 3,
+        "stack_on_mobile": true,
+        "show_category": true,
+        "show_date": true,
+        "show_excerpt": false,
+        "show_read_more": true,
+        "subheading": "",
+        "title": "Notice",
+        "content": "",
+        "button_link": "shopify://blogs/news",
+        "button_text": "View all"
+      }
+    },
+    "countdown_UPXtC9": {
+      "type": "countdown",
+      "name": "t:sections.countdown_timer.presets.countdown_timer.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "subheading": "Subheading",
+        "title": "Special offer",
+        "content": "<p>Share something about your limited offer or temporary promotion.</p>",
+        "button_link": "",
+        "button_text": "",
+        "expiration_date": "",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "countdown_UPXtC9",
+    "c_slideshow_8biYdx",
+    "rich_text_wba6pU",
+    "custom_liquid_Ja9zLD",
+    "featured-collections-1",
+    "custom_liquid_k8g3qB",
+    "collection_list_GYR9NL",
+    "featured_collections_KY7tQM",
+    "c_logo_list_7cNpYA",
+    "blog-posts"
+  ]
+}
