@@ -471,33 +471,9 @@
         "button_link": "shopify://blogs/news",
         "button_text": "View all"
       }
-    },
-    "countdown_UPXtC9": {
-      "type": "countdown",
-      "name": "t:sections.countdown_timer.presets.countdown_timer.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "subheading": "Subheading",
-        "title": "Special offer",
-        "content": "<p>Share something about your limited offer or temporary promotion.</p>",
-        "button_link": "",
-        "button_text": "",
-        "expiration_date": "",
-        "expiration_behavior": "leave",
-        "timer_position": "end",
-        "animate_number": true,
-        "flip_background": "",
-        "flip_background_opacity": 50,
-        "flip_text_color": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
     }
   },
   "order": [
-    "countdown_UPXtC9",
     "c_slideshow_8biYdx",
     "rich_text_wba6pU",
     "custom_liquid_Ja9zLD",
