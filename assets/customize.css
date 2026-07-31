@@ -1,0 +1,41 @@
+/* ----------------------------
+/account/register
+----------------------------*/
+.privacy-agreement a {
+    text-decoration: underline;
+}
+
+/* ----------------------------
+c_slideshow.liquid
+----------------------------*/
+.content-over-media .customize-slideshow-block-link {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-width: initial;
+    max-height: initial;
+    grid-area: auto;
+    text-shadow:none;
+}
+
+/* ----------------------------
+main-password.liquid
+----------------------------*/
+.password.password--custom .password__inner {
+    min-height: auto;
+}
+
+.password.password--custom .password__footer {
+    display: none;
+}
+
+.password.password--custom .password__logo {
+    display: none;
+}
+
+.custom-copyright {
+    font-size: .75rem;
+    padding: 1rem 0;
+}

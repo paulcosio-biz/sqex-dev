@@ -1,0 +1,72 @@
+Pre-order Metafields Walkthrough
+
+This guide explains how we created and utilized custom Shopify metafields to completely automate the pre-order logic for your store. 
+
+1. Creating the Metafields
+We defined four new Product Metafields in your Shopify admin settings to act as our "schedule" for pre-orders. 
+
+The metafields we used are:
+* Preorder Start Time (custom.preorder_start_time): When the pre-order officially opens (Date and time).
+* Preorder End Time (custom.preorder_end_time): When the pre-order window closes (Date and time).
+* General Sales Time (custom.preorder_general_sales_time): When the product becomes a regular item for general sales (Date and time).
+* Preorder Dispatch Date (custom.preorder_dispatch_date): The estimated shipping or dispatch date for pre-order fulfillment (Single line text or Date).
+
+To recreate or edit these definitions:
+1. Go to your Shopify Admin.
+2. Navigate to Settings > Custom data.
+3. Click on Products.
+4. Add the definitions mentioned above.
+
+2. Setting the Schedules on Products
+Once the metafield definitions exist, every product in your store gains these fields at the very bottom of its editing page in the Shopify admin.
+
+To schedule a pre-order:
+1. Open the product you want to put on pre-order.
+2. Scroll down to the Metafields section.
+3. Set the exact Start Time, End Time, General Sales Time, and the expected Dispatch Date.
+4. Save the product.
+
+3. How the Theme Utilizes the Metafields
+We injected a custom Liquid script across all critical areas of your theme (Product Page, Product Cards, Cart, and Inventory logic) to read these metafield dates and compare them to the current time.
+
+The theme instantly calculates which Preorder State the product is currently in. Furthermore, it automatically reads the Preorder Dispatch Date and injects it into a descriptive message directly underneath the Add to Cart button (e.g., "Shipping starts July 31, 2026—general sales open...").
+
+The states behave as follows:
+
+State 1: Upcoming (Not Yet Open)
+* Condition: Current time is before the start_time.
+* Behavior: 
+  - The Add to Cart button disables itself and reads PRE ORDERS OPEN [DATE] AT [TIME].
+  - The Dispatch Date message is displayed under the button.
+  - The Quantity Picker completely hides itself.
+  - The Inventory Progress Bar greys out with no text.
+  - The Quick Add button on collection pages is replaced with a button that says Pre-order soon and links to the product page.
+  - If a customer somehow has this item in their cart (e.g., from an old session), a red warning appears and checkout is blocked.
+
+State 2: Open (Ongoing)
+* Condition: Current time is between the start_time and end_time.
+* Behavior:
+  - The Add to Cart button activates and behaves normally.
+  - The Dispatch Date message is displayed under the button.
+  - The Quantity Picker is visible.
+  - The Inventory Progress Bar turns orange (warning color) and reads Preorder ongoing.
+  - The Quick Add button on collection pages is replaced with a button that says Pre-order ongoing and links to the product page (forcing the customer to view dispatch details before buying).
+  - The cart allows checkout.
+
+State 3: Closed
+* Condition: Current time is after the end_time but before the general_sales_time.
+* Behavior:
+  - The Add to Cart button disables itself and reads PRE ORDERS CLOSED.
+  - The Dispatch Date message is displayed under the button.
+  - The Quantity Picker completely hides itself.
+  - The Inventory Progress Bar greys out with no text.
+  - The Quick Add button on collection pages is replaced with a button that says Pre-order closed and links to the product page.
+  - Checkout is strictly blocked if the item is in the cart.
+
+State 0: General Sales (Standard Behavior)
+* Condition: Current time is after the general_sales_time (or general_sales_time is empty but end_time has passed).
+* Behavior:
+  - All pre-order overrides are completely disabled.
+  - The Dispatch Date message is removed.
+  - The product returns to its standard Shopify behavior, showing normal "In Stock" or "Sold Out" text based on your actual inventory levels.
+  - Quick Add grid buttons reappear, allowing standard fast-checkout.

@@ -1,0 +1,223 @@
+<style>
+
+    .payment-icon-container {
+  width: 38px;
+  height: 24px;
+}
+.payment-icon-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.payment-note {
+  margin-top: var(--product-info-gap);
+  color: #666;
+}
+
+</style>
+
+
+<ul class="payment-methods unstyled-list">
+
+  {% for type in shop.enabled_payment_types %}
+    <li>
+      {{ type | payment_type_svg_tag }}
+    </li>
+  {% endfor %}
+
+    <!-- Global-e custom payment icons -->
+
+{% if localization.country.currency.iso_code == 'AUD' %}  
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/Paypal_PM.png?v=1784719487"
+             alt="Paypal"
+             title="PayPal"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/Klarna_PM.png?v=1784719487"
+             alt="Klarna"
+             title="Klarna"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+{% elsif localization.country.currency.iso_code == 'HKD' %}  
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/AlipayHK_PM.png?v=1784719475"
+             alt="AlipayHK"
+             title="AlipayHK"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/Paypal_PM.png?v=1784719487"
+             alt="Paypal"
+             title="Paypal"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+{% elsif localization.country.currency.iso_code == 'MYR' %}  
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/Paypal_PM.png?v=1784719487"
+             alt="Paypal"
+             title="Paypal"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/MolPay_PM.png?v=1784719487"
+             alt="MolPay"
+             title="MolPay"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/Grab_Pay_PM.png?v=1784719487"
+             alt="Grab Pay"
+             title="Grab Pay"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+{% elsif localization.country.currency.iso_code == 'NZD' %}  
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/Paypal_PM.png?v=1784719487"
+             alt="Paypal"
+             title="Paypal"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+{% elsif localization.country.currency.iso_code == 'PHP' %}  
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/Paypal_PM.png?v=1784719487"
+             alt="Paypal"
+             title="Paypal"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/GCash_PM.png?v=1784719487"
+             alt="GCash"
+             title="GCash"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+{% elsif localization.country.currency.iso_code == 'SGD' %}  
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/Paypal_PM.png?v=1784719487"
+             alt="Paypal"
+             title="Paypal"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/Grab_Pay_PM.png?v=1784719487"
+             alt="Grab Pay"
+             title="Grab Pay"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+{% elsif localization.country.currency.iso_code == 'KRW' %}  
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/KakaoPay_PM.png?v=1784719487"
+             alt="Kakao Pay"
+             title="Kakao Pay"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/NHN_KCP_PM.png?v=1784719487"
+             alt="NHN KCP"
+             title="NHN KCP"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/Paypal_PM.png?v=1784719487"
+             alt="Paypal"
+             title="Paypal"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+{% elsif localization.country.currency.iso_code == 'TWD' %}  
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/Paypal_PM.png?v=1784719487"
+             alt="Paypal"
+             title="Paypal"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+{% elsif localization.country.currency.iso_code == 'THB' %}  
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/Paypal_PM.png?v=1784719487"
+             alt="Paypal"
+             title="Paypal"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+{% elsif localization.country.currency.iso_code == 'VND' %}  
+
+<li>
+      <div class="payment-icon-container">
+        <img src="https://cdn.shopify.com/s/files/1/0666/0974/1893/files/Paypal_PM.png?v=1784719487"
+             alt="Paypal"
+             title="Paypal"
+             class="custom-payment-icon">
+      </div>
+</li>
+
+{% endif %}
+
+</ul>
+
+{% if localization.country.currency.iso_code == 'KRW' %}
+
+<p class="payment-note">
+  ※ When using digital wallets (Kakao Pay, etc.), your order confirmation email may be delayed by a few hours due to system synchronization. (Normal processing)
+</p>
+
+{% endif %}

@@ -1,0 +1,136 @@
+{%- assign locale_prefix = '' -%}
+
+{%- if localization.language.iso_code == 'ko' -%}
+  {%- assign locale_prefix = '/ko' -%}
+{%- elsif localization.language.iso_code == 'zh-TW' -%}
+  {%- assign locale_prefix = '/zh-hant' -%}
+{%- endif -%}
+
+{%- assign category_name = '' -%}
+{%- assign category_url = '' -%}
+
+{%- case product.type -%}
+
+  {%- when 'Acrylic Stands' -%}
+    {%- assign category_url = locale_prefix | append: '/collections/acrylic-stands' -%}
+    {%- if localization.language.iso_code == 'ko' -%}
+      {%- assign category_name = '아크릴 스탠드' -%}
+    {%- elsif localization.language.iso_code == 'zh-TW' -%}
+      {%- assign category_name = '壓克力展示架' -%}
+    {%- else -%}
+      {%- assign category_name = 'Acrylic Stands' -%}
+    {%- endif -%}
+
+  {%- when 'Bags', 'Pouches' -%}
+    {%- assign category_url = locale_prefix | append: '/collections/bags-pouches' -%}
+    {%- if localization.language.iso_code == 'ko' -%}
+      {%- assign category_name = '가방·파우치' -%}
+    {%- elsif localization.language.iso_code == 'zh-TW' -%}
+      {%- assign category_name = '包包/小包' -%}
+    {%- else -%}
+      {%- assign category_name = 'Bags & Pouches' -%}
+    {%- endif -%}
+
+  {%- when 'Figures' -%}
+    {%- assign category_url = locale_prefix | append: '/collections/figures' -%}
+    {%- if localization.language.iso_code == 'ko' -%}
+      {%- assign category_name = '피규어' -%}
+    {%- elsif localization.language.iso_code == 'zh-TW' -%}
+      {%- assign category_name = '人偶' -%}
+    {%- else -%}
+      {%- assign category_name = 'Figures' -%}
+    {%- endif -%}
+
+  {%- when 'General' -%}
+    {%- assign category_url = locale_prefix | append: '/collections/general-merchandise' -%}
+    {%- if localization.language.iso_code == 'ko' -%}
+      {%- assign category_name = '잡화·기타' -%}
+    {%- elsif localization.language.iso_code == 'zh-TW' -%}
+      {%- assign category_name = '雜貨/其他' -%}
+    {%- else -%}
+      {%- assign category_name = 'General Merchandise' -%}
+    {%- endif -%}
+
+  {%- when 'Keychains', 'Straps' -%}
+    {%- assign category_url = locale_prefix | append: '/collections/keychains-straps' -%}
+    {%- if localization.language.iso_code == 'ko' -%}
+      {%- assign category_name = '키홀더·스트랩' -%}
+    {%- elsif localization.language.iso_code == 'zh-TW' -%}
+      {%- assign category_name = '鑰匙圈和掛繩' -%}
+    {%- else -%}
+      {%- assign category_name = 'Keychains & Straps' -%}
+    {%- endif -%}
+
+  {%- when 'Plush Toys' -%}
+    {%- assign category_url = locale_prefix | append: '/collections/plush-toys' -%}
+    {%- if localization.language.iso_code == 'ko' -%}
+      {%- assign category_name = '봉제 인형' -%}
+    {%- elsif localization.language.iso_code == 'zh-TW' -%}
+      {%- assign category_name = '毛絨玩偶' -%}
+    {%- else -%}
+      {%- assign category_name = 'Plush Toys' -%}
+    {%- endif -%}
+
+  {%- when 'Soundtracks' -%}
+    {%- assign category_url = locale_prefix | append: '/collections/soundtracks' -%}
+    {%- if localization.language.iso_code == 'ko' -%}
+      {%- assign category_name = '사운드트랙' -%}
+    {%- elsif localization.language.iso_code == 'zh-TW' -%}
+      {%- assign category_name = '原聲帶' -%}
+    {%- else -%}
+      {%- assign category_name = 'Soundtracks' -%}
+    {%- endif -%}
+
+  {%- when 'Vinyl Records' -%}
+    {%- assign category_url = locale_prefix | append: '/collections/vinyl-records' -%}
+    {%- if localization.language.iso_code == 'ko' -%}
+      {%- assign category_name = '아날로그 레코드' -%}
+    {%- elsif localization.language.iso_code == 'zh-TW' -%}
+      {%- assign category_name = '黑膠唱片' -%}
+    {%- else -%}
+      {%- assign category_name = 'Vinyl Records' -%}
+    {%- endif -%}
+
+{%- endcase -%}
+
+<nav class="breadcrumb product-breadcrumb">
+  <ol class="breadcrumb__list unstyled-list">
+
+    <li class="breadcrumb__list-item">
+      <a href="{{ locale_prefix }}/" class="smallcaps link-faded">
+        {%- if localization.language.iso_code == 'ko' -%}
+          홈
+        {%- elsif localization.language.iso_code == 'zh-TW' -%}
+          主頁
+        {%- else -%}
+          Home
+        {%- endif -%}
+      </a>
+    </li>
+
+    <li class="breadcrumb__list-item">
+      <a href="{{ locale_prefix }}/collections/all" class="smallcaps link-faded">
+        {%- if localization.language.iso_code == 'ko' -%}
+          모든 제품
+        {%- elsif localization.language.iso_code == 'zh-TW' -%}
+          所有產品
+        {%- else -%}
+          ALL PRODUCTS
+        {%- endif -%}
+      </a>
+    </li>
+
+    {%- if category_url != '' -%}
+      <li class="breadcrumb__list-item">
+        <a href="{{ category_url }}" class="smallcaps link-faded">
+          {{ category_name }}
+        </a>
+      </li>
+    {%- endif -%}
+
+    <li class="breadcrumb__list-item" aria-current="page">
+      <span class="smallcaps">{{ product.title }}</span>
+    </li>
+
+  </ol>
+</nav>

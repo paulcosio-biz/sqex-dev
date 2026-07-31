@@ -1,0 +1,74 @@
+{%- assign category_name = '' -%}
+{%- assign category_handle = '' -%}
+
+{%- for tag in product.tags -%}
+  {%- case tag -%}
+
+    {%- when 'フィギュア', 'Figures' -%}
+      {%- assign category_name = 'Figures' -%}
+      {%- assign category_handle = 'figure' -%}
+      {%- break -%}
+
+    {%- when 'Acrylic Stand' -%}
+      {%- assign category_name = 'Acrylic Stand' -%}
+      {%- assign category_handle = 'acrylic-stand' -%}
+      {%- break -%}
+
+    {%- when 'アナログレコード' -%}
+      {%- assign category_name = 'Vinyl Records' -%}
+      {%- assign category_handle = 'vinyl-records' -%}
+      {%- break -%}
+
+    {%- when 'Soundtrack' -%}
+      {%- assign category_name = 'Soundtrack' -%}
+      {%- assign category_handle = 'soundtrack' -%}
+      {%- break -%}
+
+    {%- when 'ぬいぐるみ' -%}
+      {%- assign category_name = 'Plush Toys' -%}
+      {%- assign category_handle = 'stuffed-animal' -%}
+      {%- break -%}
+
+    {%- when 'キーホルダー・ストラップ', 'Keychains & Straps' -%}
+      {%- assign category_name = 'Keychains & Straps' -%}
+      {%- assign category_handle = 'keychain-strap' -%}
+      {%- break -%}
+
+    {%- when 'バッグ・ポーチ' -%}
+      {%- assign category_name = 'Bags & Pouches' -%}
+      {%- assign category_handle = 'bags-pouches' -%}
+      {%- break -%}
+
+    {%- when '雑貨・その他' -%}
+      {%- assign category_name = 'General Merchandise' -%}
+      {%- assign category_handle = 'general-goods-more' -%}
+      {%- break -%}
+
+  {%- endcase -%}
+{%- endfor -%}
+
+<nav class="breadcrumb product-breadcrumb">
+  <ol class="breadcrumb__list unstyled-list">
+
+    <li class="breadcrumb__list-item">
+      <a href="{{ routes.root_url }}" class="smallcaps link-faded">Home</a>
+    </li>
+
+    <li class="breadcrumb__list-item">
+      <a href="/collections/all" class="smallcaps link-faded">ALL PRODUCTS</a>
+    </li>
+
+    {%- if category_handle != '' -%}
+      <li class="breadcrumb__list-item">
+        <a href="/collections/{{ category_handle }}" class="smallcaps link-faded">
+          {{ category_name }}
+        </a>
+      </li>
+    {%- endif -%}
+
+    <li class="breadcrumb__list-item" aria-current="page">
+      <span class="smallcaps">{{ product.title }}</span>
+    </li>
+
+  </ol>
+</nav>
