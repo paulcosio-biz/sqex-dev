@@ -471,9 +471,47 @@
         "button_link": "shopify://blogs/news",
         "button_text": "View all"
       }
+    },
+    "scrolling_content_RAL9PM": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_xkiPKL": {
+          "type": "text",
+          "settings": {
+            "text": "Welcome to our shop"
+          }
+        },
+        "text_kFtLkw": {
+          "type": "text",
+          "settings": {
+            "text": "Discover our products"
+          }
+        }
+      },
+      "block_order": [
+        "text_xkiPKL",
+        "text_kFtLkw"
+      ],
+      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 60,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
+    "scrolling_content_RAL9PM",
     "c_slideshow_8biYdx",
     "rich_text_wba6pU",
     "custom_liquid_Ja9zLD",
