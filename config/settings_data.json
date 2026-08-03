@@ -59,7 +59,7 @@
       },
       "14986560714151112628": {
         "type": "shopify://apps/popspin/blocks/spin_wheel/062afb0e-1312-4d62-9f82-ead950c73e9a",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     },
