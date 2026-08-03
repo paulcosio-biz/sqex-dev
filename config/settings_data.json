@@ -59,6 +59,11 @@
       },
       "14986560714151112628": {
         "type": "shopify://apps/popspin/blocks/spin_wheel/062afb0e-1312-4d62-9f82-ead950c73e9a",
+        "disabled": true,
+        "settings": {}
+      },
+      "9760743957074645847": {
+        "type": "shopify://apps/ea-email-popups/blocks/app-embed-block/559c6968-8916-4f43-b93f-91b8ea061003",
         "disabled": false,
         "settings": {}
       }
