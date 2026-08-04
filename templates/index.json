@@ -471,6 +471,27 @@
         "button_link": "shopify://blogs/news",
         "button_text": "View all"
       }
+    },
+    "17858134679c0dbf0f": {
+      "type": "apps",
+      "blocks": {
+        "pb_spin_wheel_popup_boost_inline_iHt9gn": {
+          "type": "shopify://apps/pb-spin-wheel/blocks/popup-boost-inline/019bf6fd-475f-7e62-a826-b97e276cf42b",
+          "settings": {
+            "embed_width": "full",
+            "campaign_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "pb_spin_wheel_popup_boost_inline_iHt9gn"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
     }
   },
   "order": [
@@ -482,6 +503,7 @@
     "collection_list_GYR9NL",
     "featured_collections_KY7tQM",
     "c_logo_list_7cNpYA",
-    "blog-posts"
+    "blog-posts",
+    "17858134679c0dbf0f"
   ]
 }
