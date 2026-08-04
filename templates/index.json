@@ -477,7 +477,6 @@
       "blocks": {
         "pb_spin_wheel_popup_boost_inline_iHt9gn": {
           "type": "shopify://apps/pb-spin-wheel/blocks/popup-boost-inline/019bf6fd-475f-7e62-a826-b97e276cf42b",
-          "disabled": true,
           "settings": {
             "embed_width": "full",
             "campaign_id": ""
