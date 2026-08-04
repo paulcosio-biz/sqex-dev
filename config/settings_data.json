@@ -76,6 +76,11 @@
         "type": "shopify://apps/crazyrocket-spin-wheel-pop-ups/blocks/crazyrocket-script/31762d47-a891-447e-9769-ef8b68621ed4",
         "disabled": true,
         "settings": {}
+      },
+      "17317732794400948738": {
+        "type": "shopify://apps/pb-spin-wheel/blocks/popup-boost-embed/019bf6fd-475f-7e62-a826-b97e276cf42b",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
