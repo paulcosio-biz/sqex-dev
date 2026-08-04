@@ -74,7 +74,7 @@
       },
       "753360823172887587": {
         "type": "shopify://apps/crazyrocket-spin-wheel-pop-ups/blocks/crazyrocket-script/31762d47-a891-447e-9769-ef8b68621ed4",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     },
