@@ -81,6 +81,32 @@
         "type": "shopify://apps/popspin/blocks/spin_wheel/062afb0e-1312-4d62-9f82-ead950c73e9a",
         "disabled": false,
         "settings": {}
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "greeting_message": "",
+          "show_featured_products": true,
+          "featured_products": [
+            "the-3p-fulfilled-snowboard",
+            "the-collection-snowboard-hydrogen",
+            "the-collection-snowboard-liquid"
+          ],
+          "background_color": "#ffffff",
+          "font_color": "#1c1c1c",
+          "agent_invert_activator_colors": false,
+          "button_color": "#000000",
+          "button_icon": "team",
+          "button_text": "need_help",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "agent_inherit_fonts": true,
+          "agent_font": "system_ui_n4",
+          "agent_font_size": 14,
+          "agent_activator_font_size": 13,
+          "agent_border_radius": 0
+        }
       }
     },
     "color_schemes": {
